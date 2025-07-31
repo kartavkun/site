@@ -13,15 +13,12 @@ body {
 
 @media only screen and (min-width: 600px) {
 #body {
-	max-width: 650px;
-	margin: auto;
-	position: absolute;
-    left: 50%;
-    top: 50%;
-	transform: translate(-50%, -50%);
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 }
-
 .theme-light {
     --color-main: #272727;
     --color-hover: #3A3D5F;
@@ -47,19 +44,31 @@ body {
     text-align: center;
 }
 
-#title {
+#Aka {
+    color: #4483B1;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    font-family: 'Product Sans';
+    width: 100%;
     text-align: center;
+}
+
+#title {
     color: #fff;
     font-size: 18px;
-    font-weight: 600;
-    line-height: 1.25;
+    font-weight: 700;
     display: block;
-    font-family: var(--font);
-    max-width: 450px;
-    /* width: 100%; */
-    margin-top: 5px;
+    font-family: 'Product Sans';
+    width: 100%;
     text-align: center;
-    text-decoration: none;
+  /* max-width: 450px; */
+  /* width: 100%; /* важно */ */
+  /* margin: 5px auto 0; */
+  /* text-align: center; */
+  /* font-family: 'Product Sans'; */
+  /* font-size: 18px; */
+  /* color: #fff; */
 }
 
 #linksbutton {
@@ -243,4 +252,24 @@ body {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.project-card {
+    display: block;
+    background-color: #1e1e20;
+    color: #ffffff;
+    font-family: var(--font);
+    text-align: left;
+    margin-bottom: 12px;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    border: 1px solid #3A3D5F;
+    transition: all .25s ease-in-out;
+}
+
+.project-card:hover {
+    background-color: #3A3D5F;
+    border-color: #5a5c8e;
 }
