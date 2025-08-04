@@ -10,10 +10,10 @@
     border: solid #241f21 2px;
 }
 
-/* Telegram */
-.telega:hover {
-    background-color: #23aaea;
-    border: solid #23aaea 2px;
+/* Twitter */
+.twitter:hover {
+    background-color: #00acee;
+    border: solid #00acee 2px;
 }
 
 /* Last.fm */
