@@ -1,61 +1,31 @@
-/* osu! */
-.osu:hover {
-    background-color: #ff66aa;
-    border: solid #ff66aa 2px;
+.github:hover {
+  border-color: #6e7681;
 }
 
-/* Steam */
-.steam:hover {
-    background-color: #241f21;
-    border: solid #241f21 2px;
+.telegram:hover {
+  border-color: #2aabee;
 }
 
-/* Twitter */
-.twitter:hover {
-    background-color: #00acee;
-    border: solid #00acee 2px;
+.twitch:hover {
+  border-color: #9146ff;
 }
 
-/* Last.fm */
-.lastfm:hover {
-    background-color: #d60801;
-    border: solid #d60801 2px;
-}
-
-/* Genius */
-.genius:hover {
-    background-color: #e6d94b;
-    border: solid #e6d94b 2px;
-    color: #000000;
-}
-
-/* Spotify */
-.spotify:hover {
-    background-color: #1DB954;
-    border: solid #1DB954 2px;
-}
-
-/* Reddit */
 .reddit:hover {
-    background-color: #ff4500;
-    border: solid #ff4500 2px;
+  border-color: #ff4500;
 }
 
-/* Kwork */
-.kwork:hover {
-    background-color: #ffa308;
-    border: solid #ffa308 2px;
+.osu:hover {
+  border-color: #ff66aa;
 }
 
-/* SoundCloud */
-.soundcloud:hover {
-    background-color: #ff7700;
-    border: solid #ff7700 2px;
+.steam:hover {
+  border-color: #5c6b7a;
 }
 
-/* РЗТ (Риса за творчество) */
-.rzt:hover {
-    background-color: #000000;
-    border: solid #000000 2px;
-    color: #ffffff;
+.twitter:hover {
+  border-color: #1da1f2;
+}
+
+.spotify:hover {
+  border-color: #1db954;
 }

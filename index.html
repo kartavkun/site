@@ -1,130 +1,70 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kartaviy — open-source & content</title>
-  <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="./assets/colors.css">
-  <meta name="description" content="Open-source проекты и активность Картавого">
-  <meta property="og:title" content="Картавый — проекты и стримы">
-  <meta property="og:description" content="GitHub, Twitch и Telegram — всё здесь">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Картавый — проекты и стримы">
-  <meta name="twitter:description" content="GitHub, Twitch и Telegram — всё здесь">
-  <meta name="twitter:creator" content="@kartav__">
-  <meta name="twitter:image" content="https://kartavkun.me/assets/avatar.png">
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      document.body.style.opacity = '1';
-    });
-  </script>
-  <style>
-    .project-card {
-      display: block;
-      background-color: #1e1e20;
-      color: #ffffff;
-      font-family: var(--font);
-      text-align: left;
-      margin-bottom: 12px;
-      padding: 16px;
-      text-decoration: none;
-      font-size: 0.95rem;
-      border-radius: 10px;
-      border: 1px solid #3A3D5F;
-      transition: all .25s ease-in-out;
-    }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    .project-card:hover {
-      background-color: #3A3D5F;
-      border-color: #5a5c8e;
-    }
-  </style>
+  <title>Kartaviy</title>
+  <meta name="description" content="open-source разработчик и контент-креатор" />
+
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/colors.css" />
+
+  <meta property="og:title" content="Kartaviy" />
+  <meta property="og:description" content="open-source разработчик и контент-креатор" />
+  <meta property="og:type" content="website" />
 </head>
+
 <body>
-  <div id="body">
-    <img id="Photo" src="./assets/avatar.png" alt="аватарка">
-    <span id="Name">Никита Робежко</span>
-    <span id="Aka">Kartaviy | Kartav__ | kartavkun</span>
-    <span id="title">open-source разработчик и контент-креатор</span>
+  <main class="container">
+    <header class="profile">
+      <img class="avatar" src="./assets/avatar.png" alt="Аватар" />
+      <h1 class="name">Никита Робежко</h1>
+      <p class="aka">Kartaviy · Kartav__ · kartavkun</p>
+      <p class="subtitle">open-source разработчик и контент-креатор</p>
+    </header>
 
-    <div id="linksbutton">
-      <a class="links" href="https://github.com/kartavkun" target="_blank" style="border-radius: 8px;">
-        <img src="./assets/logos/wordmarks/github.png" height="20"><br>мой GitHub
+    <section class="links">
+      <a class="link github" href="https://github.com/kartavkun" target="_blank">
+        <img src="./assets/logos/github.png" alt="" />
+        <span>GitHub</span>
       </a>
-      <a class="links" href="https://t.me/kartaviykun" target="_blank" style="border-radius: 8px;">
-        <img src="./assets/logos/wordmarks/telegram.png" height="20"><br>Telegram-канал
-      </a>
-      <a class="links" href="https://twitch.tv/kartav__" target="_blank" style="border-radius: 8px;">
-        <img src="./assets/logos/wordmarks/twitch.png" height="20"><br>стримы на Twitch
-      </a>
-    </div>
 
-    <span id="title">мои проекты:</span>
-    <div id="linksbutton">
-      <a class="project-card" href="https://github.com/kartavkun/zapret-discord-youtube" target="_blank">
-        <strong>🔗 Запрет для Linux</strong><br>
-        Простая уствнока Запрет для обхода DPI блокировок на Linux дистрибутивах
+      <a class="link telegram" href="https://t.me/kartaviykun" target="_blank">
+        <img src="./assets/logos/telegram.png" alt="" />
+        <span>Telegram</span>
       </a>
-      <a class="project-card" href="https://github.com/kartavkun/osu-low-latency-guide" target="_blank">
-        <strong>🎧 osu! Low Latency Guide</strong><br>
-        Гайд по установке Arch Linux и osu! с низкой задержкой аудио
-      </a>
-      <a class="project-card" href="https://github.com/kartavkun/arch-osu-wine" target="_blank">
-        <strong>🐧 arch-osu-wine</strong><br>
-        Скрипты и конфигурации для запуска osu! через Wine на Arch Linux
-      </a>
-      <a class="project-card" href="https://github.com/kartavkun/osufetch" target="_blank">
-        <strong>🖥️ osu!fetch</strong><br>
-        Смотри на статистику своего профиля через терминал, будто это neofetch
-      </a>
-    </div>
 
-    <span id="title">прочее:</span>
-    <div class="socials">
-      <div class="tooltip">
-        <span class="tooltiptext">osu!</span>
-        <a class="butt osu" href="https://osu.ppy.sh/users/15166598" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/osu.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Steam</span>
-        <a class="butt steam" href="https://steamcommunity.com/id/kartav__/" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/steam.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Reddit</span>
-        <a class="butt reddit" href="https://www.reddit.com/user/Kartaviy_05" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/reddit.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Kwork</span>
-        <a class="butt kwork" href="https://kwork.ru/user/kartav__" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/kwork.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Twitter</span>
-        <a class="butt twitter" href="https://twitter.com/kartav__" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/twitter.png" height="28"></a>
-      </div>
-    </div>
-    <div class="socials">
-      <div class="tooltip">
-        <span class="tooltiptext">Soundcloud</span>
-        <a class="butt soundcloud" href="https://soundcloud.com/kartav" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/soundcloud.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Spotify</span>
-        <a class="butt spotify" href="https://open.spotify.com/user/7nkixe2dqv6vtfyr0ygo4arw9?si=fd5a717aaac644c5" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/spotify.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Last.fm</span>
-        <a class="butt lastfm" href="https://www.last.fm/user/kartav__" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/lastfm.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">Genius</span>
-        <a class="butt genius" href="https://genius.com/kartavkun" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/genius.png" height="28"></a>
-      </div>
-      <div class="tooltip">
-        <span class="tooltiptext">РЗТ</span>
-        <a class="butt rzt" href="https://risazatvorchestvo.com/user/42582" target="_blank" style="border-radius: 8px;"><img src="./assets/logos/icons/rzt.png" height="28"></a>
-      </div>
-    </div>
-  </div>
+      <a class="link twitch" href="https://twitch.tv/kartav__" target="_blank">
+        <img src="./assets/logos/twitch.png" alt="" />
+        <span>Twitch</span>
+      </a>
+
+      <a class="link reddit" href="https://reddit.com/u/Kartaviy_05" target="_blank">
+        <img src="./assets/logos/reddit.png" alt="" />
+        <span>Reddit</span>
+      </a>
+
+      <a class="link osu" href="https://osu.ppy.sh/users/15166598" target="_blank">
+        <img src="./assets/logos/osu!.png" alt="" />
+        <span>osu!</span>
+      </a>
+
+      <a class="link steam" href="https://steamcommunity.com/id/kartav__/" target="_blank">
+        <img src="./assets/logos/steam.png" alt="" />
+        <span>Steam</span>
+      </a>
+
+      <a class="link twitter" href="https://twitter.com/kartav__" target="_blank">
+        <img src="./assets/logos/twitter.png" alt="" />
+        <span>Twitter</span>
+      </a>
+
+      <a class="link spotify" href="https://open.spotify.com/user/7nkixe2dqv6vtfyr0ygo4arw9" target="_blank">
+        <img src="./assets/logos/spotify.png" alt="" />
+        <span>Spotify</span>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
